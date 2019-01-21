@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # packaging script for spinnaker-demo, puts a flat file
 # release into a deb package for artifacting and packing via
 # jenkins/packer/spinnaker
