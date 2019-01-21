@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-#
 # Pretend "build" script for spinnaker-demo project...
 # 
 # Expects release version as argument (defaults to "Unknown")
