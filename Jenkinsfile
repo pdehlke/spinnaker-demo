@@ -20,17 +20,17 @@ pipeline {
         }
         stage('SAST') {
             steps {
-                sh './test/test-wrapper.sh "SAST" 15'
+                sh './test/test-wrapper.sh "SAST" 5'
             }
         }
         stage('Automated Integration Tests') {
             steps {
-                sh './test/test-wrapper.sh "Integration" 10'
+                sh './test/test-wrapper.sh "Integration" 5'
             }
         }
         stage('Performance and Load Tests') {
             steps {
-                sh './test/test-wrapper.sh "Load tests" 15'
+                sh './test/test-wrapper.sh "Load tests" 5'
             }
         }
         stage('Build') {
