@@ -1,4 +1,5 @@
 # Default nginx site for spinnaker-demo
+#
 
 server {
 	listen 80 default_server;
